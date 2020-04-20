@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body style="margin-top: -0.01%">
+  <div class="head">
+    <div class="logo-lf">
+      <img src="./img/logo.png" alt="">
+    </div>
+    <div class="mine-rf">
+      <img class="hint" src="./img/icon-message.png" alt="">
+      <i>|</i>
+      <i class="user btn-set">用户名</i>
+      <img class="icon-bottom btn-set" src="./img/xiangxia.png" alt="">
+      <img class="icon-top btn-set" src="./img/xiangshang.png" alt="">
+    </div>
+    <div class="operation">
+      <ul>
+        <li>
+          <img src="./img/yaoshi.png" alt="">
+          修改密码
+        </li>
+        <li>
+          <img src="./img/tuichu.png" alt="">
+          退出
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="center" style="margin-top: -0.1px;">
+    <ul>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+      <li>
+        <h4>开元通宝</h4>
+        <p>开元酒店集团数据平台</p>
+        <a class="btn" href="#">
+          立即进入
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script>
+    $('.btn-set').click(function () {
+      if ($('.icon-top').is(':hidden')) {
+        $('.operation').show()
+        $('.icon-top').show()
+        $('.icon-bottom').hide()
+      } else {
+        $('.operation').hide()
+        $('.icon-top').hide()
+        $('.icon-bottom').show()
+      }
+
+    });
+  </script>
+</body>
+
+</html>

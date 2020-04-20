@@ -1,0 +1,140 @@
+
+.head {
+  background: url('../img/bg@2x.png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 60px;
+}
+.head .logo-lf {
+  float: left;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.head .logo-lf img {
+  width: 144px;
+  height: 22px;
+}
+.head .mine-rf {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 90px;
+  height: 60px;
+}
+.head .mine-rf .user {
+  cursor: pointer;
+}
+.head .mine-rf .hint {
+  width: 14px;
+  height: 14px;
+  margin-top: 2px;
+}
+.head .mine-rf .icon-bottom {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.head .mine-rf .icon-top {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+}
+.head .mine-rf i {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 8px;
+}
+.head .operation {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  top: 65px;
+  right: 65px;
+  background: #fff;
+}
+.head .operation::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 33px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 10px 6px;
+  border-color: transparent transparent #fff transparent;
+}
+.head .operation ul li {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+.head .operation ul li:nth-child(1) {
+  border-bottom: 1px solid #ddd;
+}
+.head .operation ul li img {
+  width: 18px;
+  height: 18px;
+}
+.center {
+  margin: 0 auto;
+  margin-top: 128px;
+  width: 1040px;
+}
+.center ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center ul li {
+  width: 320px;
+  height: 200px;
+  padding: 24px;
+  background: url('../img/bg2-home.png');
+  background-size: 100% 100%;
+  margin-right: 40px;
+  margin-top: 60px;
+  box-shadow:0px 8px 18px 0px rgba(37, 24, 18, 0.28);
+  border-radius:8px;
+  position: relative;
+}
+.center ul li:nth-child(3n) {
+  margin-right: 0px;
+}
+.center ul li h4 {
+  font-size: 16px;
+  color: #fff;
+}
+.center ul li p {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 6px;
+}
+.center ul li .btn {
+  width: 56px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  font-size: 10px;
+  text-shadow:0px 8px 18px rgba(37, 24, 18, 0.28);
+  font-weight: 500;
+  background:linear-gradient(315deg, rgba(251, 171, 126, 1) 0%, rgba(247, 206, 104, 1) 100%);
+  border-radius: 2px;
+  box-shadow:0px 8px 18px 0px rgba(37, 24, 18, 0.28);
+}
+.center ul li:hover{
+  z-index: 2;
+  /*box-shadow: 0 15px 30px rgba(0, 0, 0, .1);*/
+  box-shadow: 0 15px 30px rgba(100, 100, 100, 1);
+  -webkit-transform: translate3d(0, -2.5px, 0);
+  transform: translate3d(0, -2.5px, 0);
+}
